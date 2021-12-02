@@ -15,7 +15,7 @@ NOTE: full path of files MUST be specified in the input file.
   The input file should be sorted alphabetically so that all files belonging to the same folder appear consecutive one another.
   Suitable for massive extended attribute extraction scenarios, with thousands of files.
   
-The output is a list of PSObject(s) containing the following properties:
+The output is a list of `PSObject`(s) containing the following properties:
 
 * `Filename` : 
 * `FileCreationDate` = Creation time, as returned by the filesystem
@@ -30,3 +30,9 @@ The output is a list of PSObject(s) containing the following properties:
 * `DetailsLastPrint` = Last print time
 * `DetailsLastSave` = Last save time (= last time the document was saved as an action of the user of as the result of autosave). This can differ from FileLastWriteDate.
 * `DetailsCreationDate` = Creation time written in the document. This could differ from FileCreationDate.
+
+To turn the result into a .csv:
+
+```pwsh
+./Get-ExtendedProps-From-SortedFileList.ps1 files-to-process.txt | ConvertTo-Csv -NoTypeInformation | Out-File -Encoding utf8 csvoutput.csv
+```
