@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinProps", "WinProps\WinProps.csproj", "{A9ED9069-F924-4C67-A203-331A41039D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumColumns", "EnumColumns\EnumColumns.csproj", "{09D0B5BF-49E2-4DC7-B7D5-FFCF959B213D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9ED9069-F924-4C67-A203-331A41039D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ED9069-F924-4C67-A203-331A41039D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ED9069-F924-4C67-A203-331A41039D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ED9069-F924-4C67-A203-331A41039D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D0B5BF-49E2-4DC7-B7D5-FFCF959B213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D0B5BF-49E2-4DC7-B7D5-FFCF959B213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D0B5BF-49E2-4DC7-B7D5-FFCF959B213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D0B5BF-49E2-4DC7-B7D5-FFCF959B213D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67700122-B77E-4F97-8371-0C93E313FBD2}
+	EndGlobalSection
+EndGlobal

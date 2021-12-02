@@ -36,3 +36,7 @@ To turn the result into a .csv:
 ```pwsh
 ./Get-ExtendedProps-From-SortedFileList.ps1 files-to-process.txt | ConvertTo-Csv -NoTypeInformation | Out-File -Encoding utf8 csvoutput.csv
 ```
+
+To get the full list of properties retrievable, compile and run "`ShellColumns\EnumColumns`". Credits to [The Windows Property System](https://www.codeproject.com/Articles/1156123/The-Windows-Property-System).
+
+**NOTE**: Powershell scripts here provided are fully self contained. There's no need to build or distribute the `ShellColumns` folder.
