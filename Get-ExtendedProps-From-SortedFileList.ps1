@@ -34,7 +34,7 @@ Get-Content $inputFileList -Encoding UTF8 | %{
     Write-Host "[$(Get-Date -Format o)] Item '$fn': file system data read"
 
     [pscustomobject]@{ 
-        Filename = $fn
+        Filename = $_
         FileCreationDate = $d.CreationTime
         FileLastWriteDate = $d.LastWriteTime
         FileLastAccessDate = $d.LastAccessTime
